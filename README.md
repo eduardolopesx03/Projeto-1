@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido para a Residência de Software com o objetivo de criar uma aplicação web básica utilizando HTML, CSS e TypeScript. A aplicação tem como propósito demonstrar uma interface visualmente agradável com dados dinâmicos, oferecendo funcionalidades básicas como formulários e manipulação do DOM.
+Este projeto é um sistema desenvolvido para atender às necessidades de nutricionistas que ainda utilizam papel para armazenar informações dos seus clientes. A aplicação visa resolver problemas de organização e dificuldade de acesso às informações dos clientes, proporcionando um melhor controle e um atendimento mais eficiente e personalizado. Utilizando HTML, CSS, TypeScript, jQuery e Bootstrap, o sistema cria uma interface visualmente agradável e dinâmica para gerenciar dados dos clientes de forma mais prática e eficaz.
 
 ## Funcionalidades da Aplicação
 
@@ -30,7 +30,7 @@ Este projeto foi desenvolvido para a Residência de Software com o objetivo de c
 
 ## Estrutura do Projeto
 
-O projeto está organizado para separar a estrutura (HTML), o estilo (CSS) e a funcionalidade (TypeScript). O uso de Bootstrap e jQuery facilita a criação de um design responsivo e interativo. 
+O projeto está organizado para separar a estrutura (HTML), o estilo (CSS) e a funcionalidade (TypeScript). O uso de Bootstrap e jQuery facilita a criação de um design responsivo e interativo.
 
 ### Funcionalidades Avançadas com jQuery e TypeScript
 - **Modo Noturno:** Alternância entre modos claro e escuro para melhorar a experiência do usuário.
