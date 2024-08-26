@@ -7,14 +7,13 @@ Este projeto é um sistema desenvolvido para atender às necessidades de nutrici
 ## Funcionalidades da Aplicação
 
 ### Página de Emagrecimento
-- **Cálculo de Índice de Massa Corporal (IMC):** Permite calcular o IMC com base nas informações fornecidas pelo usuário.
-- **Resultados Dinâmicos:** Exibe o resultado do cálculo de forma interativa e responsiva.
+- **Cálculo de Necessidade Calórica Diária:** Permite calcular quantas calorias a pessoa precisa consumir diariamente para atingir seu objetivo de emagrecimento. Utiliza funções em TypeScript e jQuery para criar o formulário e gerenciar a interação com o usuário.
 
 ### Página de Cálculo de Gasto Calórico Basal
 - **Calculadora Fit:** Permite calcular o gasto calórico basal de forma rápida e eficiente. Utiliza funções em TypeScript e jQuery para criar o formulário, gerenciar a interação com o usuário e aplicar animações.
 
 ### Páginas de Hipertrofia e Manutenção
-- **Design Similar:** As páginas de hipertrofia e manutenção estão previstas, mas ainda não foram implementadas. Elas seguirão um design semelhante ao da página de emagrecimento e incluirão funcionalidades semelhantes.
+- **Design Similar:** As páginas de hipertrofia e manutenção seguem o mesmo design da página de emagrecimento e até estão implementadas. No entanto, estão inacabadas e, por isso, quando se clica para calcular nessas páginas, não ocorre nada. A implementação futura incluirá funcionalidades semelhantes às da página de emagrecimento.
 
 ## Tecnologias Utilizadas
 
@@ -52,6 +51,6 @@ O projeto está organizado para separar a estrutura (HTML), o estilo (CSS) e a f
 
 ## Possíveis Melhorias Futuras
 
-- **Páginas de Hipertrofia e Manutenção:** Implementação das funcionalidades para calcular e exibir informações para hipertrofia e manutenção, seguindo o mesmo design da página de emagrecimento.
+- **Páginas de Hipertrofia e Manutenção:** Finalização da implementação das páginas de hipertrofia e manutenção para que a funcionalidade de cálculo seja ativada e ofereça a mesma experiência da página de emagrecimento.
 - **Otimização do Código:** Melhorias na organização e eficiência do código TypeScript e CSS.
 - **Adição de Funcionalidades:** Inclusão de novas funcionalidades baseadas no feedback dos usuários e nas necessidades identificadas.
