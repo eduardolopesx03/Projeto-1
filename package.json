@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,178 @@
+body {
+  background-color: seashell;
+  transition: background-color 0.6s ease;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size: 30px;
+}
+
+.night-mode {
+  background-color: #333333;
+  color: seashell;
+}
+
+/*SWITCH MODONOTURNO*/
+.night-mode-switch {
+  margin-top: 3%;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.night-mode-switch-label {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.night-mode-switch-checkbox {
+  display: none;
+}
+
+.night-mode-switch-ball {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+#labelswitch {
+  margin-left: 10px;
+}
+
+.night-mode-switch-checkbox:checked+.night-mode-switch-label {
+  background-color: #2196F3;
+  /* Set the desired background color for the switch when night mode is active */
+}
+
+.night-mode-switch-checkbox:checked+.night-mode-switch-label .night-mode-switch-ball {
+  transform: translateX(20px);
+  /* Move the ball to the right when night mode is active */
+}
+
+/*Navbar*/
+.navbar {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navbar-night {
+  color: seashell;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 47px;
+  width: auto;
+  margin: 10%;
+}
+
+.navbar-nav {
+  margin: 5 auto;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+
+.navbar-nav .nav-item {
+  padding: 0 50px;
+}
+
+.navbar-nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Banner*/
+#bannercentral {
+  height: 130px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34F8FA;
+}
+
+#bannercentral h2 {
+  font-family: 'Antonio', sans-serif;
+  font-size: 48px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2% 5%;
+}
+
+.banner {
+  width: 100%;
+  max-width:32%;
+  padding: 2%;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-caption {
+  margin-top: 10px;
+  font-weight: 200px;
+}
+
+.container_social{
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.modal-body{
+  color: #000000;
+}
+
+.modal-header{
+  color: #000000;
+  background-color: #34F8FA;
+  font-family: 'Antonio', sans-serif;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.icon-link i {
+  margin-right: 10px;
+}
+.modal-body a{
+  text-decoration: none;
+  color: #000000;
+  margin-left: 10px;
+}

@@ -1,0 +1,124 @@
+body {
+    background-color: seashell;
+    transition: background-color 0.6s ease;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.night-mode {
+    background-color: #333333;
+    color: seashell;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #1CACAD;
+}
+
+.navbar-brand {
+    margin-right: auto;
+   
+}
+
+.navbar-image {
+    max-width: auto;
+    max-height: 70px;
+    margin-right: 3%;
+    margin-bottom: 0px;
+}
+
+/*TEXTOCENTRO*/
+.center-text {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 23px;
+    border-bottom: 1px solid #000000;
+}
+
+/*PAINEIS*/
+.accordion {
+    margin-top: 5%;
+}
+
+.accordion .card {
+    background-color: #DFDADA;
+    margin-bottom: 3%;
+}
+
+.accordion .card-header {
+    padding: 0.75rem 1.25rem;
+}
+
+.accordion .card-header .btn {
+    width: 100%;
+    text-align: left;
+    padding-right: 2.5rem;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.accordion .card-header .btn::after {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+    font-weight: bold;
+}
+/*BOTÃO*/
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+   
+}
+.custom-button {
+    padding: 5px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #1CACAD;
+    color: #ffffff;
+    font-family: 'Antonio', sans-serif;
+    border: none;
+    outline: none;
+}
+
+/*RESPOSTAS*/
+.custom-input {
+    background-color: #1CACAD;
+    font-family: 'Antonio', sans-serif; 
+    font-size: 30px; 
+    color: #000000;
+    margin-bottom: 2%;
+    text-align: center;
+}
+#carboidratoEmagrecimento{
+    margin-left: 30%;
+}
+#proteinaEmagrecimento{
+    margin-left: 36%;
+}
+#gorduraEmagrecimento{
+    margin-left: 36%;
+}
+.input-label{
+    font-family: 'Antonio', sans-serif; 
+    font-size: 50px; 
+}
+#caloriasDiarias{
+    font-family: 'Antonio', sans-serif; 
+    font-size: 50px; 
+    text-align: center;
+}
+#inputResultado{
+    margin-top: 8%;
+    margin-left:10% ;
+    text-align: center;
+}
+/*INPUT CALORIAS*/
+#gastoCalorico{
+    font-size: 20px;
+    background-color: #67FA4D;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Imports bibliotecas-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Fim Imports bibliotecas-->
+    <link rel="stylesheet" href="CSS/manutenção.css">
+    <script src="dist/main.js"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Projeto 1 (manutenção)</title>
+</head>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">
+        <img src="img/Screenshot_12-removebg-preview.png" alt="Logo">
+    </a>
+    <img src="img/Screenshot_8-removebg-preview.png" alt="Image" class="navbar-image">
+</nav>
+<div class="div" id="parte1">
+    <!--TextoCentral-->
+    <div class="container" id="containerCentral">
+        <div class="row">
+            <div class="col-lg-12 center-text">
+                <p>Uma dieta balanceada é o segredo para a manunteção de um corpo e uma mente saudáveis!
+                    Responda os questionários para estar por dentro das suas necessidades diárias!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Form-->
+    <div class="container">
+        <div id="accordion" class="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Gasto Calórico
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="genero">Gênero:</label>
+                                <div class="form-check">
+                                    <input type="radio" id="masculino" name="genero" value="masculino" required
+                                        class="form-check-input">
+                                    <label for="masculino" class="form-check-label">Masculino</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" id="feminino" name="genero" value="feminino" required
+                                        class="form-check-input">
+                                    <label for="feminino" class="form-check-label">Feminino</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="peso">Peso (kg):</label>
+                                <input type="number" id="peso" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="altura">Altura (cm):</label>
+                                <input type="number" id="altura" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="idade">Idade:</label>
+                                <input type="number" id="idade" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nivelAtividade">Nível de atividade no dia a dia:</label>
+                                <select id="nivelAtividade" class="form-control" required>
+                                    <option value="1.2">Sedentário (pouco ou nenhum exercício)</option>
+                                    <option value="1.375">Levemente ativo (exercício leve/dia)</option>
+                                    <option value="1.55">Moderadamente ativo (exercício moderado/dia)</option>
+                                    <option value="1.725">Muito ativo (exercício intenso/dia)</option>
+                                    <option value="1.9">Extremamente ativo (exercício pesado/dia)</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <div class="row">
+                                    <label for="gastoCalorico">Seu gasto calórico basal é:</label>
+                                    <input type="number" id="gastoCalorico" class="form-control" required readonly>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Nível de atividade
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="container">
+                            <form>
+                                <div class="form-group">
+                                    <label for="atividadeLeve">Escolha uma atividade:</label>
+                                    <div class="form-check">
+                                        <input type="radio" id="atividadeLeve" name="atividade" value="leve"
+                                            class="form-check-input">
+                                        <label for="atividadeLeve" class="form-check-label">Atividade Leve</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" id="atividadeModerada" name="atividade" value="moderada"
+                                            class="form-check-input">
+                                        <label for="atividadeModerada" class="form-check-label">Atividade
+                                            Moderada</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" id="atividadeIntensa" name="atividade" value="intensa"
+                                            class="form-check-input">
+                                        <label for="atividadeIntensa" class="form-check-label">Atividade Intensa</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <p class="mb-0" id="descricaoAtividade"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Objetivo
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="atividadeLeve">Escolha uma atividade:</label>
+                                    <div class="form-check">
+                                        <input type="radio" id="teste" name="atividade" value="leve"
+                                            class="form-check-input">
+                                        <label for="atividadeLeve" class="form-check-label">Lento</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" id="teste" name="atividade" value="moderada"
+                                            class="form-check-input">
+                                        <label for="atividadeModerada" class="form-check-label">Moderado</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" id="teste" name="atividade" value="intensa"
+                                            class="form-check-input">
+                                        <label for="atividadeIntensa" class="form-check-label">Intenso</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Botão-->
+        <div class="container">
+            <div class="centered-button">
+                <button class="custom-button" id="botaoCalcular">CALCULAR</button>
+            </div>
+        </div>
+    </div>
+    <div class="div" id="parte2" hidden style="display: none;">
+        <div class="container" id="containerCentral">
+            <div class="row">
+                <div class="col-lg-12 center-text">
+                    <p>Baseado nas informações fornecidas você precisa diariamente de:</p>
+                    <input type="text" placeholder="Enter your text" id="caloriasDiarias" readonly>
+                    <label class="input-label" for="caloriasDiarias">CALORIAS</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="container" id="inputResultado">
+            <div class="row">
+                <label class="input-label" for="carboidratos">GRAMAS DE CARBOIDRATOS</label>
+                <input type="text" class="custom-input" id="carboidrato" placeholder="Enter your text">
+            </div>
+            <div class="row">
+                <label class="input-label" for="proteina">GRAMAS DE PROTEINAS</label>
+                <input type="text" class="custom-input" id="proteina" placeholder="Enter your text">
+            </div>
+            <div class="row">
+                <label class="input-label" for="gordura">GRAMAS DE GORDURAS</label>
+                <input type="text" class="custom-input" id="gordura" placeholder="Enter your text">
+            </div>
+        </div>
+    </div>
+
+    <body>
+    </body>
+
+</html>
