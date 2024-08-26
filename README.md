@@ -10,6 +10,9 @@ Este projeto foi desenvolvido para a Residência de Software com o objetivo de c
 - **Cálculo de Índice de Massa Corporal (IMC):** Permite calcular o IMC com base nas informações fornecidas pelo usuário.
 - **Resultados Dinâmicos:** Exibe o resultado do cálculo de forma interativa e responsiva.
 
+### Página de Cálculo de Gasto Calórico Basal
+- **Calculadora Fit:** Permite calcular o gasto calórico basal de forma rápida e eficiente. Utiliza funções em TypeScript e jQuery para criar o formulário, gerenciar a interação com o usuário e aplicar animações.
+
 ### Páginas de Hipertrofia e Manutenção
 - **Design Similar:** As páginas de hipertrofia e manutenção estão previstas, mas ainda não foram implementadas. Elas seguirão um design semelhante ao da página de emagrecimento e incluirão funcionalidades semelhantes.
 
@@ -18,7 +21,7 @@ Este projeto foi desenvolvido para a Residência de Software com o objetivo de c
 - **HTML:** Estruturação das páginas web.
 - **CSS:** Estilização das páginas para uma experiência de usuário aprimorada.
 - **TypeScript:** Manipulação dinâmica dos dados e interação com o DOM.
-- **jQuery:** Simplificação da manipulação do DOM e adição de interatividade.
+- **jQuery:** Simplificação da manipulação do DOM, adição de interatividade e funcionalidades avançadas como modo noturno e menus animados.
 - **Bootstrap:** Framework para garantir um design responsivo e adaptável a diferentes dispositivos e tamanhos de tela.
 
 ## Ferramentas de Desenvolvimento
@@ -27,7 +30,11 @@ Este projeto foi desenvolvido para a Residência de Software com o objetivo de c
 
 ## Estrutura do Projeto
 
-O projeto está organizado para separar a estrutura (HTML), o estilo (CSS) e a funcionalidade (TypeScript). O uso de Bootstrap e jQuery facilita a criação de um design responsivo e interativo.
+O projeto está organizado para separar a estrutura (HTML), o estilo (CSS) e a funcionalidade (TypeScript). O uso de Bootstrap e jQuery facilita a criação de um design responsivo e interativo. 
+
+### Funcionalidades Avançadas com jQuery e TypeScript
+- **Modo Noturno:** Alternância entre modos claro e escuro para melhorar a experiência do usuário.
+- **Menus Animados:** Menus dinâmicos e animados para uma navegação mais intuitiva e atraente.
 
 ## Como Utilizar
 
